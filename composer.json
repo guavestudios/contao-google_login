@@ -28,7 +28,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "contao": "system/modules/google_login"
+        "": "system/modules/google_login"
       }
     }
   }
