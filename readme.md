@@ -1,6 +1,6 @@
 # contao google login
 
-## An contao module to login per oauth over google api
+## A contao module to login per oauth over google api
 search for googleemail in user db and login as user
 
 ##Dependencies

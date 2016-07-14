@@ -1,0 +1,35 @@
+{
+  "name": "guave/contao-google_login",
+  "description": "A contao module to login per oauth over google api",
+  "keywords": [
+    "contao",
+    "oauth",
+    "google"
+  ],
+  "type": "contao-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gebhard Nigsch",
+      "email": "gebhard.nigsch@gmail.com",
+      "homepage": "http://guaveinteractive.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/guavestudios/contao-google_login"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": "~3.5",
+    "contao-community-alliance/composer-plugin": "~2.0",
+    "google/apiclient": "^2.0"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "contao": "system/modules/google_login"
+      }
+    }
+  }
+}
